@@ -1,0 +1,24 @@
+.cover-frame::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.15) 45%, rgba(0,0,0,0.4));
+  pointer-events: none;
+  z-index: 1;
+}
+.cover-inner {
+  z-index: 2;
+}
+.cover-inner,
+.cover-inner a {
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.75), 0 0 2px rgba(0,0,0,0.9);
+}
+.cover-inner h1 {
+  opacity: 1;
+  font-weight: 700;
+}
+#subtitle,
+#subtitle-box {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.75), 0 0 2px rgba(0,0,0,0.9);
+}
